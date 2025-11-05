@@ -1,0 +1,97 @@
+body {
+  height: 100%;
+  margin: 20px;
+    padding: 50px;
+    color: #ffffff;
+}
+nav {
+    background-color: #4c4747;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+
+}
+nav ul li{
+    margin: 0 20px 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+nav ul li a:active{
+   text-decoration: underline;
+}
+
+/*Hero section styles*/
+.hero-section{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 80px;
+}
+.hero-content{
+   flex: 1;
+    text-align: start;
+    margin-top: 50px;
+}
+.hero-content h5{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    font-family:sans-serif;
+    color: #62919c;
+}
+.hero-content h1{
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 1.2;
+    font-family:sans-serif;
+
+}
+.hero-content  .heading-line {
+  width: 650px;
+  height: 2px;
+  background-color: #795b98;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+.hero-content p{
+ width: 650px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+.hero-content .hero-btn{
+    font-family: sans-serif;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.hero-image{
+    flex: 1;
+    margin-top:120px;
+    margin-right: 20px;
+}
+.hero-image img{
+    width: 600px;
+    height: 600px;
+}
